@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Página modelo com Bootstrap</title>
+        <!-- CSS -->
+	    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar bg-danger navbar-expand-lg navbar-dark fixed-top">
+            <a href="#" class="navbar-brand">PÁGINA MODELO</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--LINKS-->
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-md-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menu_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sites</a>
+    
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Site 1</a>
+                            <a href="#" class="dropdown-item">Site 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Fale Conosco</a>
+                    </li>
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <input type="text" placeholder="Buscar no site" name="Buscar" class="form-control input-group-prepend">
+                            <input type="submit" class="btn btn-dark input-group-append">
+                        </div>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            
+            <!--Jumbotron & Cards-->
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container-fluid text-light bg-danger">
+                    <h1 class="display-4" style="text-align: center;">Bem -vindos!!!</h1>
+                </div>
+
+                <!--Carousel-->
+                <div id="carrossel" class="carousel slide bg-dark" date-ride="carousel" style="text-align: center;">
+                    <!--Indicadores-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carrossel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carrossel" data-slide-to="1"></li>
+                        <li data-target="#carrossel" data-slide-to="2"></li>
+                    </ol>
+                    <!--Imagens-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="public/img/natureza1.jpg" alt="Imagem 1">
+                            <div class="carousel-caption">Natureza Maravilhosa</div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="public/img/natureza1.jpg" alt="Imagem 2">
+                            <div class="carousel-caption">Natureza Maravilhosa</div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="public/img/natureza1.jpg" alt="Imagem 3">
+                            <div class="carousel-caption">Natureza Maravilhosa</div>
+                        </div>
+                    </div>
+                    <!--Controles-->
+                    <a class="carousel-control-prev" href="#carrossel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carrossel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+
+                </div>
+                <hr>
+                <div class="container-fluid">
+                    <h1 class="display-5 text-light bg-danger" style="text-align: center;">Noticias</h1>
+                    <div class="bg-dark text-light" style="padding: 5px;">
+                        <img src="public/img/natureza4.jpeg" alt="imagem natureza" style="float: left; margin-right: 10px;">
+                        <p>Lorem ipsum dolor sit amet. Qui dolorum rerum ea quia error ut totam soluta? 33 iusto reprehenderit et eveniet ipsum et explicabo galisum a iste ipsa qui incidunt quidem sed tempora soluta. Ut perferendis voluptatem non itaque laboriosam aut eaque officiis. Ea vitae suscipit quo dolorem nihil et enim ipsum?</p>
+
+                        <p>Cum necessitatibus eligendi ea odio assumenda ut enim distinctio! Qui asperiores velit est sunt rerum quas mollitia rem possimus neque. Qui dolores dolore aut nihil expedita sit vitae nobis qui quia nemo et voluptatum quisquam et rerum quod nam enim quia.</p>
+                            
+                        <p>Aut saepe consectetur ut soluta aspernatur eum magnam esse. Qui praesentium alias ut velit facere ea voluptas mollitia et dolor aperiam 33 autem eius id velit asperiores. Ex neque atque cum minima odit 33 quaerat quis et deleniti eveniet aut quasi numquam qui magnam odit et totam culpa.</p>
+                        
+                        <a href="#" class="btn btn-danger">Saiba Mais</a>
+                    </div>
+                    <div class="bg-dark text-light" style="padding: 5px;">
+                        <img src="public/img/natureza4.jpeg" alt="imagem natureza" style="float: left; margin-right: 10px;">
+                        <p>Lorem ipsum dolor sit amet. Qui dolorum rerum ea quia error ut totam soluta? 33 iusto reprehenderit et eveniet ipsum et explicabo galisum a iste ipsa qui incidunt quidem sed tempora soluta. Ut perferendis voluptatem non itaque laboriosam aut eaque officiis. Ea vitae suscipit quo dolorem nihil et enim ipsum?</p>
+
+                        <p>Cum necessitatibus eligendi ea odio assumenda ut enim distinctio! Qui asperiores velit est sunt rerum quas mollitia rem possimus neque. Qui dolores dolore aut nihil expedita sit vitae nobis qui quia nemo et voluptatum quisquam et rerum quod nam enim quia.</p>
+                            
+                        <p>Aut saepe consectetur ut soluta aspernatur eum magnam esse. Qui praesentium alias ut velit facere ea voluptas mollitia et dolor aperiam 33 autem eius id velit asperiores. Ex neque atque cum minima odit 33 quaerat quis et deleniti eveniet aut quasi numquam qui magnam odit et totam culpa.</p>
+                        
+                        <a href="#" class="btn btn-danger">Saiba Mais</a>
+                    </div>
+                    <div class="bg-dark text-light" style="padding: 5px;">
+                        <img src="public/img/natureza4.jpeg" alt="imagem natureza" style="float: left; margin-right: 10px;">
+                        <p>Lorem ipsum dolor sit amet. Qui dolorum rerum ea quia error ut totam soluta? 33 iusto reprehenderit et eveniet ipsum et explicabo galisum a iste ipsa qui incidunt quidem sed tempora soluta. Ut perferendis voluptatem non itaque laboriosam aut eaque officiis. Ea vitae suscipit quo dolorem nihil et enim ipsum?</p>
+
+                        <p>Cum necessitatibus eligendi ea odio assumenda ut enim distinctio! Qui asperiores velit est sunt rerum quas mollitia rem possimus neque. Qui dolores dolore aut nihil expedita sit vitae nobis qui quia nemo et voluptatum quisquam et rerum quod nam enim quia.</p>
+                            
+                        <p>Aut saepe consectetur ut soluta aspernatur eum magnam esse. Qui praesentium alias ut velit facere ea voluptas mollitia et dolor aperiam 33 autem eius id velit asperiores. Ex neque atque cum minima odit 33 quaerat quis et deleniti eveniet aut quasi numquam qui magnam odit et totam culpa.</p>
+                        
+                        <a href="#" class="btn btn-danger">Saiba Mais</a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="container-fluid" style="margin-top: 10px;">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card border border-danger bg-dark">
+                                <img src="public/img/natureza2.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Card 1</h5>
+                                    <p class="card-text text-light">Elucidando o Card 1. Ele é parte de um esquema de estudo onde o principal objetivo é aumentar o conhecimento e se tornar um especialista no assunto. Para saber mais sobre clique no botão abaixo.</p>
+                                    <a href="#" class="btn btn-danger">Botão abaixo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border border-danger bg-dark">
+                                <img src="public/img/natureza2.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Card 2</h5>
+                                    <p class="card-text text-light">Elucidando o Card 2. Ele é parte de um esquema de estudo onde o principal objetivo é aumentar o conhecimento e se tornar um especialista no assunto. Para saber mais sobre clique no botão abaixo.</p>
+                                    <a href="#" class="btn btn-danger">Botão abaixo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border border-danger bg-dark">
+                                <img src="public/img/natureza2.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Card 3</h5>
+                                    <p class="card-text text-light">Elucidando o Card 3. Ele é parte de um esquema de estudo onde o principal objetivo é aumentar o conhecimento e se tornar um especialista no assunto. Para saber mais sobre clique no botão abaixo.</p>
+                                    <a href="#" class="btn btn-danger">Botão abaixo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border border-danger bg-dark">
+                                <img src="public/img/natureza2.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Card 4</h5>
+                                    <p class="card-text text-light">Elucidando o Card 4. Ele é parte de um esquema de estudo onde o principal objetivo é aumentar o conhecimento e se tornar um especialista no assunto. Para saber mais sobre clique no botão abaixo.</p>
+                                    <a href="#" class="btn btn-danger">Botão abaixo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <h5 class="text-light bg-danger" style="text-align: center;">Preencha o formulário abaixo com suas informações!</h1>
+                <form action="" class="bg-dark text-light">
+
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="">Digite seu nome completo</label>
+                            <input type="text" class="form-control form-control-sm" placeholder="Insira seu nome" style="width:700px;">
+                        </div>
+                    </div>
+
+                    <div class="col">		
+                        <div class="form-group">
+                            <label for="">Digite sua idade</label>
+                            <input type="number" name="Insira a idade!" class="form-control form-control-sm" placeholder="Insira sua idade" style="width:130px;">
+                        </div>
+                    </div>
+                    
+                    <div class="col " style="width:200px;">
+                        <div class="form-group">
+                            <label for="">Digite seu sexo</label>
+                            <select name="" id="" class="form-control form-control-sm" >
+                                <option value="" selected disabled>Selecione seu sexo</option>
+                                <option value="1">Masculino</option>
+                                <option value="2">Feminino</option>
+                                <option value="3">Prefiro não dizer</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-group">
+                            <p>Como encontrou nosso site?</p>
+                            <input type="radio" class="form-radio-input">
+                            <label for="">Facebook</label>
+                            <br>
+                            <input type="radio" class="form-radio-input">
+                            <label for="">Linkedin</label>
+                            <br>
+                            <input type="radio" class="form-radio-input">
+                            <label for="">Amigos</label>
+                            <br>
+                            <input type="radio" class="form-radio-input">
+                            <label for="">Outros Sites</label>
+                            <br>
+                            <input type="radio" class="form-radio-input" disabled>
+                            <label for="">Concorrência?</label>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin-left: 15px;">
+                        <label for=""><b> Envie-nos um arquivo!</b></label>
+                        <input type="file" class="form-control" style="width: 400px;">
+                    </div>                
+                    <!--Gatilho-->
+                    <button type="button" class="btn btn-danger btn-sm btn-block" data-toggle="modal" data-target="#modal">Enviar</button>
+                    <!--Modal-->
+                    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="Rotulo do modal">
+                        <div class="modal-dialog modal-sm" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="titulo">Tudo Certo para nos enviar?</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Verifique se todas as informações estão corretas antes de nos enviar!</p>
+                                    <p>Caso esteja tudo certo clique em <b> Salvar mudanças</b>.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-danger">Salvar mudanças</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <!-- JS -->
+            <script src="public/js/jquery.js"></script>
+            <script src="public/js/bootstrap.bundle.min.js"></script>
+        </footer>
+    </body>
+</html>
