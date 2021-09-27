@@ -1,2 +1,2 @@
 # Projeto2
-A simple project using HTML and CSS.
+A basic project using HTML, CSS e Bootstrap.
