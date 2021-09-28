@@ -5,6 +5,11 @@
         <title>Página modelo com Bootstrap</title>
         <!-- CSS -->
 	    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+        <script>
+            function check(browser) {
+              document.getElementById("answer").value=browser;
+            }
+        </script>
     </head>
     <body>
         <nav class="navbar bg-danger navbar-expand-lg navbar-dark fixed-top">
@@ -199,20 +204,21 @@
 
                     <div class="col">
                         <div class="form-group">
-                            <p>Como encontrou nosso site?</p>
-                            <input type="radio" class="form-radio-input">
+                            <label style="margin-right: 10px;">Como encontrou nosso site?</label><input type="text" id="answer" size="20" disabled>
+                            <br>
+                            <input type="radio" class="form-radio-input" name="option" value="Facebook" onclick="check(this.value)">
                             <label for="">Facebook</label>
                             <br>
-                            <input type="radio" class="form-radio-input">
+                            <input type="radio" class="form-radio-input" name="option" value="Linkedin" onclick="check(this.value)">
                             <label for="">Linkedin</label>
                             <br>
-                            <input type="radio" class="form-radio-input">
+                            <input type="radio" class="form-radio-input" name="option" value="Amigos" onclick="check(this.value)">
                             <label for="">Amigos</label>
                             <br>
-                            <input type="radio" class="form-radio-input">
+                            <input type="radio" class="form-radio-input" name="option" value="Outros Sites" onclick="check(this.value)">
                             <label for="">Outros Sites</label>
                             <br>
-                            <input type="radio" class="form-radio-input" disabled>
+                            <input type="radio" class="form-radio-input" name="option" value="Concorrência?" onclick="check(this.value)"disabled>
                             <label for="">Concorrência?</label>
                             <br>
                         </div>
